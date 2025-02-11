@@ -7,12 +7,14 @@ import Home from './pages/Home';
 import Dashboard from './pages/Dashboard';
 import RequireAuth from './components/RequireAuth';
 import Navbar from './components/Navbar';
+import CheckAuth from './components/CheckAuth';
 
 const App = () => {
   return (
     <Provider store={store}>
       <BrowserRouter>
         <TranslationProvider>
+          <CheckAuth />
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
