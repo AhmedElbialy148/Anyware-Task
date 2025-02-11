@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Anyware Software Task - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a frontend code using Reactjs and typescript.
+
+# Important
+
+Include the follwing (.env) file data for needed credentils.
+
+REACT_APP_API_URL=http://localhost:5000
 
 ## Available Scripts
 
